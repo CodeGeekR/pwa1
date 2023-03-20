@@ -35,4 +35,9 @@ const showCoffees = () => {
   container.innerHTML = output
 }
 
+function SetAbout()
+{
+  window.location.href="Pages/About.html"
+}
+
 document.addEventListener("DOMContentLoaded", showCoffees)
